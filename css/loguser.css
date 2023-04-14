@@ -1,0 +1,16 @@
+.loguser{
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+.loguser:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;}
+/*#text2{
+        -fx-background-color: -fx-text-box-border, -fx-background ;
+        -fx-background-insets: 0, 0 0 1 0 ;
+        -fx-background-radius: 0 ;
+    }
+#text2:focused {
+        -fx-background-color: -fx-focus-color, -fx-background ;}/*
+
+

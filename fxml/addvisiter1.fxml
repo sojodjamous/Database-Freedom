@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.addvisiter1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="497.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/12.jpg" />
+               </image>
+            </ImageView>
+            <HBox layoutX="152.0" layoutY="20.0" opacity="0.79" prefHeight="436.0" prefWidth="608.0" style="-fx-background-color: #2c3338; -fx-background-radius: 20;">
+               <children>
+                  <VBox prefHeight="372.0" prefWidth="308.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="37.0" prefWidth="295.0" text="Identification Number" textFill="#fffbfb">
+                           <font>
+                              <Font name="Aldhabi" size="32.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="41.0" prefWidth="306.0" text="Name" textFill="#fff9f9">
+                           <font>
+                              <Font name="Aldhabi" size="32.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="41.0" prefWidth="306.0" text="Date of Birth" textFill="#fff9f9">
+                           <font>
+                              <Font name="Aldhabi" size="32.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="41.0" prefWidth="306.0" text="Telephone number" textFill="#fff9f9">
+                           <font>
+                              <Font name="Aldhabi" size="32.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="41.0" prefWidth="306.0" text="Address" textFill="#fff9f9">
+                           <font>
+                              <Font name="Aldhabi" size="32.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="41.0" prefWidth="306.0" text="prisoner number" textFill="#fff9f9">
+                           <font>
+                              <Font name="Aldhabi" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="41.0" prefWidth="306.0" text="Relationship with the prisoner" textFill="#fff9f9">
+                           <font>
+                              <Font name="Aldhabi" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="37.0" prefWidth="295.0" text="Password " textFill="#fffbfb">
+                           <font>
+                              <Font name="Aldhabi" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="396.0" prefWidth="316.0">
+                     <children>
+                        <HBox prefHeight="16.0" prefWidth="302.0" />
+                        <TextField fx:id="s1" style="-fx-background-radius: 20;" />
+                        <HBox prefHeight="26.0" prefWidth="308.0" />
+                        <TextField fx:id="s2" style="-fx-background-radius: 20;" />
+                        <HBox prefHeight="30.0" prefWidth="308.0" />
+                        <TextField fx:id="s4" prefHeight="18.0" prefWidth="302.0" style="-fx-background-radius: 20;" />
+                        <HBox prefHeight="24.0" prefWidth="308.0" />
+                        <TextField fx:id="s6" prefHeight="18.0" prefWidth="302.0" style="-fx-background-radius: 20;" />
+                        <HBox prefHeight="24.0" prefWidth="308.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </HBox>
+                        <TextField fx:id="s5" prefHeight="18.0" prefWidth="302.0" style="-fx-background-radius: 20;" />
+                        <HBox prefHeight="24.0" prefWidth="308.0" />
+                        <TextField fx:id="s7" prefHeight="24.0" prefWidth="302.0" style="-fx-background-radius: 20;" />
+                        <HBox prefHeight="26.0" prefWidth="308.0" />
+                        <TextField fx:id="s8" prefHeight="24.0" prefWidth="302.0" style="-fx-background-radius: 20;" />
+                        <HBox prefHeight="31.0" prefWidth="308.0" />
+                        <TextField fx:id="s3" style="-fx-background-radius: 20;" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button fx:id="save" layoutX="33.0" layoutY="389.0" mnemonicParsing="false" onAction="#sav" styleClass="login" stylesheets="@../css/login.css" text="Save" />
+            <Button fx:id="closeButton" layoutX="782.0" layoutY="389.0" mnemonicParsing="false" onAction="#closeButtonAction" styleClass="login" stylesheets="@../css/login.css" text="Close" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
