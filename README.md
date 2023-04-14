@@ -15,6 +15,11 @@ tables and SQL Testing.
 7. CSS for styling the interfaces in JavaFX
 
 
+![11](https://user-images.githubusercontent.com/107058107/232077925-23a559c8-5656-4991-8345-fecfec6df160.png)
+
+![22](https://user-images.githubusercontent.com/107058107/232077935-e16c530c-ea58-4a36-a3a7-37f5bed3a651.png)
+
+
 GUI: 
 Main page:
 This is the interface , the user can chose to log in as admin or visitor.
